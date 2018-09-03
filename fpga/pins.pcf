@@ -1,0 +1,18 @@
+# USB
+set_io USBPU A3
+
+# 16MHz clock
+set_io REFCLK B2
+
+# SPI
+set_io SS A2
+set_io SCLK A1
+set_io MISO B1
+set_io MOSI C2
+
+# VGA
+set_io HSYNC E1
+set_io VSYNC G2
+set_io RED H1
+set_io GRN J1
+set_io BLU H2
